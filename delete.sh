@@ -1,7 +1,10 @@
 #!/bin/bash
-
+# Warning do not run this script if you havent taken permission from the system admin
 # Define the age threshold
 DAYS=30
+REGION=ca-central-1
+
+
 
 # Define the directory to search in. Be very careful with this setting!
 # Using "/" will search the entire system, which can be very dangerous.
